@@ -56,7 +56,7 @@ namespace Toplu_Mail_Gonderim
             { mailList_lb.Items.Remove(mailList_lb.SelectedItem); }
             else
             {
-                MessageBox.Show("Sileceğiniz Mail Adresini Seçin!", "www.burakozkan.net", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Sileceğiniz Mail Adresini Seçin!", "Mertkan Özdilek", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -76,10 +76,10 @@ namespace Toplu_Mail_Gonderim
             }
             else
             {
-                MessageBox.Show("Sileceğiniz Kişi Listesini Seçin!", "www.burakozkan.net", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Sileceğiniz Kişi Listesini Seçin!", "Mertkan Özdilek", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            MessageBox.Show("Kişi Listeniz Başarıyla Silindi!", "www.burakozkan.net", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Kişi Listeniz Başarıyla Silindi!", "Mertkan Özdilek", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void Temizle()
@@ -103,9 +103,9 @@ namespace Toplu_Mail_Gonderim
             }
             else
             {
-                MessageBox.Show("Güncellenecek Kişi Listesi Yok!", "www.burakozkan.net", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Güncellenecek Kişi Listesi Yok!", "Mertkan Özdilek", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            MessageBox.Show("Kişi Listeniz Başarıyla Güncellendi!", "www.burakozkan.net", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Kişi Listeniz Başarıyla Güncellendi!", "Mertkan Özdilek", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void ekle_btn_Click(object sender, EventArgs e)

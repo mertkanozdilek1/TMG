@@ -63,10 +63,10 @@ namespace Toplu_Mail_Gonderim
             }
             else
             {
-                MessageBox.Show("Sileceğiniz Hesabı Seçin!", "Mertkan özdilek", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Sileceğiniz Hesabı Seçin!", "Mertkan Özdilek", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            MessageBox.Show("Hesabınız Başarıyla Silindi!", "Mertkan özdilek", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Hesabınız Başarıyla Silindi!", "Mertkan Özdilek", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void guncelle_btn_Click(object sender, EventArgs e)
@@ -91,9 +91,9 @@ namespace Toplu_Mail_Gonderim
             }
             else
             {
-                MessageBox.Show("Güncellenecek Kişi Listesi Yok!", "Mertkan özdilek", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Güncellenecek Kişi Listesi Yok!", "Mertkan Özdilek", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            MessageBox.Show("Kişi Listeniz Başarıyla Güncellendi!", "Mertkan özdilek", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Kişi Listeniz Başarıyla Güncellendi!", "Mertkan Özdilek", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void Temizle()

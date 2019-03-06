@@ -120,7 +120,7 @@ namespace Toplu_Mail_Gonderim
                 xmlYonetici.KisiListesiEkle(xmlYonetici.KisiListesiEnBuyukId() + 1, kisiListesiAdi_tb.Text, mailList);
             }
 
-            MessageBox.Show("Kişi Listesi Başarıyla Oluşturuldu!", "Mertkan Ödilek", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Kişi Listesi Başarıyla Oluşturuldu!", "Mertkan ÖZdilek", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Temizle();
         }
 
@@ -135,12 +135,12 @@ namespace Toplu_Mail_Gonderim
         {
             if (kisiListesiAdi_tb.Text == "")
             {
-                MessageBox.Show("Lütfen Kişi Listesi Adını Giriniz!", "Mertkan Ödilek", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Lütfen Kişi Listesi Adını Giriniz!", "Mertkan ÖZdilek", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
             else if(mailList_lb.Items.Count <= 0)
             {
-                MessageBox.Show("Lütfen En Az Bir Mail Adresi Giriniz!", "Mertkan Ödilek", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Lütfen En Az Bir Mail Adresi Giriniz!", "Mertkan ÖZdilek", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
             return true;

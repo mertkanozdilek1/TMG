@@ -126,7 +126,7 @@ namespace Toplu_Mail_Gonderim
 
             if (e.Cancelled == true)
             {
-                MessageBox.Show("İşlem İptal Edildi", "www.burakozkan.net", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("İşlem İptal Edildi", "Mertkan Özdilek", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             if (e.Error != null)
             {
@@ -138,7 +138,7 @@ namespace Toplu_Mail_Gonderim
             {
                 siteAdres_tssl.Text = "Mail Gönderildi...";
                 siteAdres_tssl.BackColor = Color.Green;
-                MessageBox.Show("Mail Başarıyla Gönderildi", "www.burakozkan.net", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Mail Başarıyla Gönderildi", "Mertkan Özdilek", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 gonder_btn.Enabled = true;
             }
         }
